@@ -9,6 +9,17 @@ col2_pos = int(2*df_len/3)
 st.set_page_config(page_title='To Anechka with Love', layout='wide')
 st.header("Happy Valentine's day")
 
+col1_1, emp1_1, col2_1 = st.columns([3, 1, 3])
+with col1_1:
+    st.subheader("Это Женя")
+    st.image(f"images/Igen.jpg")
+
+with col2_1:
+    st.subheader("А это Аня")
+    st.image(f"images/Park.jpg")
+
+st.title("А дальше будут Мы")
+
 col1, emp1, col2, emp2, col3 = st.columns([3, 1, 3, 1, 3])
 
 with col1:
