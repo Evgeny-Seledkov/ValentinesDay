@@ -19,6 +19,7 @@ with col2_1:
     st.image(f"images/Park.jpg")
 
 st.title("А дальше будут Мы")
+st.title("")
 
 col1, emp1, col2, emp2, col3 = st.columns([3, 1, 3, 1, 3])
 
